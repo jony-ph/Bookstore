@@ -8,7 +8,7 @@ contract Bookstore is ERC1155 {
 
     // El token URI es el link IPFS para los metadatos relacionados
     // con el ID del token creado de la librería NFT
-    constructor() ERC1155("https://"){ 
+    constructor() ERC1155("https://ipfs.io/ipfs/QmRXWdKuthnpBLk6weZAbak8oMPPQkM2nNxKrpuC8SiajR?filename=sample.json"){ 
         tokenCounter = 0;
     }
 

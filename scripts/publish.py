@@ -7,5 +7,5 @@ def main():
     book_store = Bookstore[len(Bookstore) - 1]
     print(book_store)
 
-    book_store.publish("Lord of the Rings", 50, {'from': dev})
+    book_store.publish("Song of Ice and Fire", 100, {'from': dev})
     print(book_store.tokenCounter())
